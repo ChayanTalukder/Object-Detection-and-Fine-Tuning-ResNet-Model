@@ -9,20 +9,13 @@ Enabling faster book retrieval by recognizing spine text or cover designs.
 The assignment is divided into two parts: implementing from scratch our own neural network for image classification from the Oxford-IIIT Pet dataset; then, fine-tune a pretrained network provided by PyTorch.
 
 CNN from Scratch (PyTorch):
-
 Designed and implemented a deep convolutional neural network inspired by ResNet-v2.
-
 Conducted an ablation study by testing different architectural choices (e.g., skip connections, depth, number of filters) to analyze their impact on performance.
-
 Transfer Learning with ResNet (PyTorch)
 
-
 Fine-tuned a pretrained ResNet (ImageNet weights):
-
 Pretrained layers already extracted strong general features (edges, textures, shapes).
-
 Adapted the top layers to classify pet breeds.
-
 Achieved ~90% accuracy, showing how pretrained weights were already highly effective and that fine-tuning outperformed training from scratch.
 
 
