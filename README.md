@@ -7,7 +7,6 @@ Enabling faster book retrieval by recognizing spine text or cover designs.
 
 # Module Two: The goal is to implement a neural network that classifies images of 37 breeds of cats and dogs, followed by fine-tuning a pretrained ResNet model.
 The assignment is divided into two parts: implementing from scratch our own neural network for image classification from the Oxford-IIIT Pet dataset; then, fine-tune a pretrained network provided by PyTorch.
-Overview:
 
 CNN from Scratch (PyTorch):
 Designed and implemented a deep convolutional neural network inspired by ResNet-v2.
